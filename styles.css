@@ -193,6 +193,23 @@ button:hover,
   background-color: #155ab6;
 }
 
+/* TABLE */
+table {
+  border-collapse: collapse;
+  width: 300px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
 /* ==============================
    Forms
 ============================== */
@@ -262,6 +279,30 @@ img {
     flex-direction: column;
     gap: 15px;
   }
+  .pre-footer {
+    background-color: #f2f2f2;
+    padding: 20px 40px;
+  }
+
+  .pre-footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Links on the left */
+  .links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  /* Social icons on the right */
+  /* .social-icons img {
+    width: 25px;
+    margin-left: 10px;
+  } */
 
   footer input[type="email"],
   footer button {
