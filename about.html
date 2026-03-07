@@ -47,17 +47,15 @@
           </tr>
         </table>
 
-        <!-- <h3>Business Hours</h3>
-        <p>Mon - Fri: 6am - 9pm</p>
-        <p>Sat: 8am - 6pm</p>
-        <p>Sun: Closed</p> -->
-
         <h3>Feedback Form</h3>
         <form>
-          <input type="text" placeholder="Your Name" />
-          <input type="email" placeholder="Your Email" />
-          <textarea rows="5" placeholder="Your Message"></textarea>
-          <button type="submit">Submit</button>
+          <input type="text" placeholder="Your Name" required />
+
+          <input type="email" placeholder="Your Email" required />
+
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+
+          <button type="submit" onclick="submitMessage()">Submit</button>
         </form>
       </div>
     </section>
@@ -65,5 +63,6 @@
     <footer>
       <p>© 2026 ABC Fitness Studio</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
